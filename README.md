@@ -1,9 +1,4 @@
-# OneClick-CTF                                                                                                                                                                                                                 ________                _________ .__  .__        __             _______________________________
-\_____  \   ____   ____ \_   ___ \|  | |__| ____ |  | __         \_   ___ \__    ___/\_   _____/
- /   |   \ /    \_/ __ \/    \  \/|  | |  |/ ___\|  |/ /  ______ /    \  \/ |    |    |    __)  
-/    |    \   |  \  ___/\     \___|  |_|  \  \___|    <  /_____/ \     \____|    |    |     \   
-\_______  /___|  /\___  >\______  /____/__|\___  >__|_ \          \______  /|____|    \___  /   
-        \/     \/     \/        \/             \/     \/                 \/               \/                                                                                                                                                              
+# OneClick-CTF                                                                                                                                                                                                                                                                                                                                                              
 One-click Docker-based tool to run CTFd locally for practice, teaching, and CTF events.
 
 [![Docker](https://img.shields.io/badge/Docker-✔-blue?logo=docker)](https://www.docker.com/)
