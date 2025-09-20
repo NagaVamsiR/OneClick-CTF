@@ -1,0 +1,21 @@
+services:
+  ctfd:
+    image: ctfd/ctfd
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./data:/var/lib/ctfd
+    environment:
+      - UPLOAD_FOLDER=/var/lib/ctfd/uploads
+      - DATABASE_URL=sqlite:///ctfd.db
+      - REDIS_URL=redis://cache:6379
+      - WORKERS=1
+    depends_on:
+      - cache
+
+  cache:
+    image: redis:alpine
+    restart: always
+
+volumes:
+  data:
